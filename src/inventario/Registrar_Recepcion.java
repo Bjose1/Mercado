@@ -100,7 +100,7 @@ public class Registrar_Recepcion extends javax.swing.JFrame {
 
                     // Escribir la línea actualizada en el archivo de destino
                     if (!stock_N.isEmpty() && !fecha_N.isEmpty() && !codigo_N.isEmpty() && !categoria_N.isEmpty() && !precio_N.isEmpty() && !nombre_N.isEmpty()) {
-                        System.out.println("entrooooooooooooooooo");
+                        
                         Productos_registro_N.println(nombre_N + "\t" + fecha_N + "\t" + codigo_N + "\t" + categoria_N + "\t" + precio_N + "\t" + stock_N);
                     }
                     Productos_registro_N.flush();
@@ -531,7 +531,7 @@ public class Registrar_Recepcion extends javax.swing.JFrame {
         inicializarYProcesarArchivos();
         // Llamar a nuevo_lote con los argumentos
         nuevo_lote(productos, productosN, provedores, provedoresN, fecha_u, nombre, fecha, categoria, precio, stock, codigo, nombreprod_p, nombreprov_p, cantsum_p, fecha_p, cedula_p, nombre_N, fecha_N, categoria_N, precio_N, stock_N, codigo_N, nombreprod_pN, nombreprov_pN, cantsum_pN, fecha_pN, cedula_pN, nombre_u, cant);
-        System.out.println("YA");
+       
 
     }//GEN-LAST:event_jButton1ActionPerformed
 

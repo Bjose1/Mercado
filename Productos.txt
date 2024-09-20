@@ -1,4 +1,4 @@
-Cebolla	20240920	2	Alimento	3000	30
+Cebolla	20240820	2	Alimento	3000	130
 Zanahoria	20241020	3	Alimento	1500	40
 Televisor	20241020	4	Electrodomestico	1000000	36
 Lavadora	20241020	5	Electrodomestico	1200000	44
