@@ -38,14 +38,16 @@ public class Inventario {
         String nombre_u = "", categoria_u = "", precio_u = "", stock_u = "", codigo_u = "", nombreprod_pu = "", nombreprov_pu = "", cantsum_pu = "", fecha_pu = "", cedula_pu = "";
         String nombre_N = "", fecha_N = "", categoria_N = "", precio_N = "", stock_N = "", codigo_N = "", nombreprod_pN = "", nombreprov_pN = "", cantsum_pN = "", fecha_pN = "", cedula_pN = "";
         String nombre = "", fecha = "", categoria = "", precio = "", stock = "", codigo = "", nombreprod_p = "", nombreprov_p = "", cantsum_p = "", fecha_p = "", cedula_p = "";
-
+        int dia, mes, año;
         Scanner sc = new Scanner(System.in);
         System.out.println("Fecha actual en formato AAAAMMDD(AÑO MES DIA):");
         String fecha_u = sc.nextLine();
-        while (Integer.parseInt(fecha_u) < 20240101) {
-            System.out.println("Fecha actual(AAAAMMDD):");
+        do{
             fecha_u = sc.nextLine();
-        }
+            dia = Integer.parseInt(fecha_u)%100;
+            mes = Integer.parseInt(fecha_u)%10000/100;
+            año = Integer.parseInt(fecha_u)/10000;
+        }while(año<2024 || año>2100 || mes < 1 || mes > 12 || dia < 1 || dia > 31);
 
         Llenar_Archivo.llenar_archivo(Provedores, Productos, Productos_N, Provedores_N, sc, fecha_u);
 

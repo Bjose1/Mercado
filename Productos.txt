@@ -1,10 +1,8 @@
-Tomate	20240920	1	Alimento	2000	30
 Cebolla	20240920	2	Alimento	3000	30
-Zanahoria	20240920	3	Alimento	1500	10
-Televisor	20240920	4	Electrodomestico	1000000	6
-Lavadora	20240920	5	Electrodomestico	1200000	14
-Compuador	20240920	6	Electrodomestico	3000000	20
+Zanahoria	20241020	3	Alimento	1500	40
+Televisor	20241020	4	Electrodomestico	1000000	36
+Lavadora	20241020	5	Electrodomestico	1200000	44
 Galleta	20240920	7	Dulces	12000	80
 Yogurt	20240920	8	Alimento	4000	60
-Silla	20240920	9	Mueble	200000	15
+Silla	20241020	9	Mueble	200000	45
 Mesa	20240920	10	Mueble	500000	20
